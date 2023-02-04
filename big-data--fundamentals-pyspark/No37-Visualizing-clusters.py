@@ -14,7 +14,6 @@ Create a scatter plot of the raw data and an overlaid scatter plot with centroid
 
 # Code
 
-# Convert rdd_split_int RDD into Spark DataFrame
 rdd_split_int_df = spark.createDataFrame(rdd_split_int, schema=["col1", "col2"])
 
 # Convert Spark DataFrame into Pandas DataFrame
